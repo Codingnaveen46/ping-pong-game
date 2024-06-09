@@ -95,6 +95,7 @@ const pauseGame = () => {
 };
 
 return (
+    
 	<div className="ping-pong-container" tabIndex="0">
 	<div
 		className={`paddle paddle-left ${gameRunning ? '' : 'paused'}`}
